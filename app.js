@@ -23,7 +23,7 @@ db.authenticate()
 //routes
 
 //Tutor routes
-//app.use("/", require(process.env.rotaParaTutorsRoutes));
+app.use("/", require(process.env.rotaParaTutorsRoutes));
 
 //Pets routes
-//app.use("/", require(process.env.rotaParaPetsRoutes));
+app.use("/", require(process.env.rotaParaPetsRoutes));
